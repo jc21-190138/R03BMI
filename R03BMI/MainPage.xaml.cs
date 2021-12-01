@@ -34,7 +34,7 @@ namespace R03BMI
                 {
                     w = w / 1000;
                 }
-                double BMI = Math.Round(w / (h * h), 2);
+                double BMI = Math.Round(w / (h * h), 1);
 
                 if (BMI < 18.5)
                 {
