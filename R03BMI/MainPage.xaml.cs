@@ -62,7 +62,7 @@ namespace R03BMI
                     zyoutai = "肥満度(4度)";
                 }
                 result.Text = "BMIは" + BMI + "で、体形は" + zyoutai + "です。";
-            }catch(FormatException ex)
+            }catch(FormatException  ex)
             {
                 Console.WriteLine(ex);
                 result.Text = "!!!";
