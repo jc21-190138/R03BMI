@@ -18,8 +18,8 @@ namespace R03BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            String heigth = heigth.Text;
-            String weigth = weigth.Text;
+            String heigth = heighit.Text;
+            String weigth = weighit.Text;
             try
             {
                 double h = double.Parse(heigth);
